@@ -135,11 +135,10 @@ All figures are generated via scripts and saved as **PNG (static)** and **HTML (
 These calendar heatmaps visualize daily file availability across modalities.
 
 **Images**
-- `figures/2025_images_heatmap.png`
-- `figures/2025_audio_heatmap.png`
-- `figures/2025_contrast_heatmap.png`
+- ![Images Heatmap](figures/2025_images_heatmap.png)
+- ![Audio Heatmap](figures/2025_audio_heatmap.png)
+- ![File Difference Heatmap](figures/2025_file_diff_heatmap.png)
 
-```text
 Image files per day, Audio files per day, and modality imbalance
 
 ### Interpretation
@@ -153,9 +152,9 @@ Under normal operation, image and audio capture volumes exhibit similar temporal
 These figures evaluate the **temporal stability of image quality**.
 
 **Images**
-- `figures/2025_blur_heatmap.png`
-- `figures/2025_brightness_heatmap.png`
-- `figures/2025_contrast_heatmap.png`
+- ![Blur Heatmap](figures/2025_blur_heatmap.png)
+- ![Brightness Heatmap](figures/2025_brightness_heatmap.png)
+- ![Contrast Heatmap](figures/2025_contrast_heatmap.png)
 
 ### Interpretation
 
