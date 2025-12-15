@@ -229,6 +229,7 @@ ia626_project/
 ├── results/      # Generated CSV outputs
 ├── figures/      # PNG and HTML visualizations
 └── README.md
+```
 
 ## 7. Reproducibility
 
