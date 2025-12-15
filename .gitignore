@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+.DS_Store
+data/
+raw/
+# Large file-level outputs (not committed)
+results/audio_quality.csv
+results/image_quality.csv
