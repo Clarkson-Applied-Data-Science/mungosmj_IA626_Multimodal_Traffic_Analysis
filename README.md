@@ -198,7 +198,7 @@ This scatter plot compares **sensor-reported sound levels** with the **number of
 
 ### Interpretation
 
-Most days form a dense, coherent cluster, confirming that higher sensor-reported sound levels generally correspond to greater audio capture volume. This relationship reflects expected system behavior and supports the validity of both sensor measurements and waveform extraction under normal conditions.
+A strong linear relationship is present. Most days form a dense, coherent cluster, confirming that higher sensor-reported sound levels generally correspond to greater audio capture volume. This relationship reflects expected system behavior and supports the validity of both sensor measurements and waveform extraction under normal conditions.
 
 A small number of clear outliers exhibit **high sensor-reported loudness paired with near-zero audio persistence**. These points are strong indicators of **audio capture failure**, where the sensor reports activity but the audio pipeline fails to persist corresponding files. The isolation of these outliers further supports the interpretation of transient failure rather than persistent malfunction.
 
@@ -228,7 +228,6 @@ ia626_project/
 ├── scripts/      # ETL and figure-generation scripts
 ├── results/      # Generated CSV outputs
 ├── figures/      # PNG and HTML visualizations
-├── notebooks/    # Exploratory notebooks
 └── README.md
 
 ## 7. Reproducibility
@@ -237,7 +236,8 @@ ia626_project/
 - Raw data are omitted due to size constraints  
 - Directory structure and data schemas are fully documented  
 - Each ETL branch can be rerun independently  
-- All figures are reproducible from versioned CSV outputs  
+- All figures are reproducible from versioned CSV outputs 
+- Interactive plots available in figures/
 
 ---
 
